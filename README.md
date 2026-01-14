@@ -38,34 +38,8 @@ A comprehensive Hospital Emergency Room (ER) Management System built using **cus
 
 **Patient Flow**
 
-┌─────────────────┐
-│  Patient Arrives │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│   Registration   │ ──► BST (Patient Records)
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  Emergency Queue │ ──► Min-Heap (Priority)
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│    Treatment     │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Department Queue │ ──► FIFO Queue
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│    Discharge     │
-└─────────────────┘
+<img width="1491" height="1564" alt="image" src="https://github.com/user-attachments/assets/a282249e-ccc0-43cb-8703-b5727ad46bda" />
+
 
 ---
 
